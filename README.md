@@ -46,3 +46,7 @@
         使用者測試   : a11, after a10 ,14d
 ```
 ## PERT圖
+![pert](https://github.com/C110134148/T15nT1/blob/fdbcd64c59e9647170213210c3b688d2138e01b3/PERT_GROUP_VER1.jpg)
+
+## 關鍵路徑
+關鍵路徑： 1 → 2 → 3 → 4 → 5 → 6 → 10 → 11
