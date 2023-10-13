@@ -23,6 +23,7 @@
         資料蒐集     : a4, after a3 , 7d
         資料整合     : a5, after a4 , 1d
         系統開發     : a6, after a5 , 14d
-        系統測試     : a7 ,after a5 , 14d
-        使用者測試   : a8, after a7 ,21d 
+        系統測試     : a7 ,after a6 , 14d
+        系統除錯     : a8 ,after a6 , 14d
+        使用者測試   : a9, after a7 ,21d
 ```
