@@ -33,7 +33,7 @@
 ```mermaid
     gantt
         title 甘特圖
-        研擬主題     : a1, 2023-10-3 ,1d
+        研擬主題     : a1, 2023-10-1 ,1d
         研擬計畫     : a2, after a1 , 2d
         任務分配     : a3, after a2 , 1d
         資料蒐集     : a4, after a3 , 7d
@@ -45,3 +45,4 @@
         使用者訓練   : a10 ,after a9 , 14d
         使用者測試   : a11, after a10 ,14d
 ```
+## PERT圖
