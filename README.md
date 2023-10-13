@@ -12,5 +12,18 @@
 |三乙|C110118260|李俊賢（乙班）|C110118260|      
 |四丙|B111118301|**司徒嘉略**（乙班組長）|Ssutu|
 
+```mermaid
+gantt
+    title A Gantt Diagram
 
+    section 任務
+    研擬主題         : a1, 2023-09-11 , 7d
+    任務分配         : a2, after a1 , 7d
+    資料蒐集         : a3, after a2 , 7d
+    題目瞭解與分析   : a4, after a3, 14d
+    擬定解題方法     : a5, after a3 , 14d
+    擬定執行規劃     : a6, after a3 , 7d
+    擬定解題成果     : a7, after a3 ,14d
+    產出規劃        : a8, after a7, 14d
+```
 
