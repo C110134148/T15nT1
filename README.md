@@ -50,3 +50,43 @@
 
 ## 關鍵路徑
 關鍵路徑： 1 → 2 → 3 → 4 → 5 → 6 → 10 → 11
+
+
+```mermaid
+    gantt
+        title 即食雞胸肉探索——尋覓創新商機
+第一階段    : c1, 2023-9-15 ,46d
+第二階段    : c2, 2023-11-15 ,56d
+探索    : b1, 2023-9-15 ,21d
+定義    : b2, after b1,14d
+發展    : b3, after b2 ,28d
+實行    : b4, after b3 ,21d
+        研擬主題     : a1, 2023-9-15 ,2d
+        田野調查     : a2, after a1 , 3d
+        初步討論     : a4, after a2 , 2d
+        整合提案     : a5, after a3 , 30d
+
+        初步資料蒐集    : a3, after a1 , 10d
+        分向討論     : a6, after a3 , 2d
+        初步領域分析     : a8 ,after a6 , 7d
+        蒐集數據及資料 : a7, after a3 , 22d
+
+        現況領域延伸     : a9, after a8 , 8d
+        會合討論     : a10, after a9 , 1d
+        現況領域整合     : a11, after a9 , 5d
+        現況定義 : a12, after a11 , 1d
+
+        創作資料蒐集     : a13 ,after a12 , 18d
+        創作領域分析: a14 ,after a12 , 9d
+        會合討論     : a16, after a14 , 1d
+        創新領域延伸   : a15, after a14 ,9d
+        會合討論: a18 ,after a15 , 1d
+        創作領域整合: a17 ,after a15 , 9d
+        創作領域展示: a19 ,after a17 , 1d
+
+創新領域篩選: a20 ,after a19 , 2d
+方案設計: a21 ,after a20 , 10d
+方案篩選: a22 ,after a21 , 2d
+方案調整: a23 ,after a21 , 4d
+整合計劃: a24 ,after a23 , 5d
+```
