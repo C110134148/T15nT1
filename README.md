@@ -55,30 +55,30 @@
 ```mermaid
     gantt
         title 即食雞胸肉探索——尋覓創新商機
+
 第一階段    : c1, 2023-09-15 ,42d
 第二階段    : c2, 2023-11-15 ,51d
-探索    : b1, 2023-09-15 ,12d
-探索    : b5, 2023-10-25 ,9d
-定義    : b2, after b5,14d
-發展    : b3, after b2 ,28d
-實行    : b4, after b3 ,21d
+todayMarker off
+section 探索
         研擬主題     : a1, 2023-09-15 ,2d
         田野調查     : a2, after a1 , 3d
         初步討論     : a4, after a2 , 2d
         整合提案     : a5, after a4 , 5d
 
-        時間延長及提案修正  : a25, after a5 , 30d
+        時間延長及提案修正  :crit, a25, after a5 , 30d
 
         初步資料蒐集    : a3, after a1 , 10d
         分向討論     : a6, 2023-10-25 , 2d
         初步領域分析     : a8 ,after a6 , 7d
-        蒐集數據及資料 : a7, 2023-10-25 , 22d
 
+        蒐集數據及資料 : a7, 2023-10-25 , 9d
+section 定義
+        蒐集數據及資料 : a26, after a7 , 13d
         現況領域延伸     : a9, after a8 , 8d
         會合討論     : a10, after a9 , 1d
         現況領域整合     : a11, after a9 , 5d
         現況定義 : a12, after a11 , 1d
-
+section 發展
         創作資料蒐集     : a13 ,after a12 , 18d
         創作領域分析: a14 ,after a12 , 9d
         會合討論     : a16, after a14 , 1d
@@ -87,6 +87,7 @@
         創作領域整合: a17 ,after a15 , 9d
         創作展示討論: a19 ,after a17 , 1d
 
+section 實行
 創新領域篩選: a20 ,after a19 , 2d
 方案設計: a21 ,after a20 , 10d
 方案篩選: a22 ,after a21 , 2d
